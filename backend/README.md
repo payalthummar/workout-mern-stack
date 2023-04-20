@@ -1,16 +1,16 @@
 # App Setup
 
-step 1: mkdir backend && cd backend
-step 2: npm init -y
-step 3: npm i express
-step 4: npm i -g nodemon
+- step 1: mkdir backend && cd backend
+- step 2: npm init -y
+- step 3: npm i express
+- step 4: npm i -g nodemon
 
 - package.json file add scripts
 
         "dev": "nodemon server.js"
 
-  step 5: npm i dotenv
-  step 6: npm i mongoose
+- step 5: npm i dotenv
+- step 6: npm i mongoose
 
 ## API Endpoints
 
