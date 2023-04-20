@@ -56,17 +56,18 @@ header a {
   font-size: 0.9em;
   color: #555;
 }
-.workout-details span {
+.workout-details .button-icons {
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
-  background: #f1f1f1;
   padding: 6px;
-  border-radius: 50%;
-  color: #333;
+  font-size: 1.5rem;
 }
-
+.delete-icon,
+.edit-icon {
+  margin-right: 1rem;
+}
 /* new workout form */
 label,
 input {
@@ -97,4 +98,7 @@ div.error {
   color: var(--error);
   border-radius: 4px;
   margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
 }
