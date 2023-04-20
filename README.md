@@ -13,17 +13,17 @@ Then navigate to the project directory and install the dependencies:
 - npm install
 - npm start
 ```
-
+Finally, start the app:
 The frontend should now be running on [http://localhost:3000](http://localhost:3000).
 
-Finally, start the app:
+
 
 ```javascript
 - cd backend
 - npm install
 - npm run dev
 ```
-
+Finally, start the app:
 The backend should now be running on [http://localhost:4000](http://localhost:4000).
 
 **Client:** React
