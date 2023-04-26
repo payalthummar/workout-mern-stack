@@ -27,6 +27,6 @@ router.delete("/:id", deleteWorkout);
 
 // - PATCH/PUT: /api/workouts/:id = Updates a single workout
 
-router.put("/:id", updateWorkout);
+router.patch("/:id", updateWorkout);
 
 module.exports = router;
